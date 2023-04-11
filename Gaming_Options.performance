@@ -1,0 +1,283 @@
+#emulated/0/System/Config/Data/Sys/Build.Prop/əəəəəəə
+write_into_file: true
+write_into_/0/data/etc/build.prop/: true
+flush_period_ms: 30000
+file_write_period_ms: 604800000
+incremental_state_config {
+  clear_period_ms: 15000
+}
+buffers {
+    size_kb: 16m
+    Priority: Cpu_BUFFER
+}
+buffers {
+    size_kb: 16m
+    Cpu_BUFFER:
+}
+data_sources {
+    config {
+        name: "linux.ftrace"
+        target_buffer: 0
+        ftrace_config {
+            atrace_categories: "cpu"
+            atrace_categories: "cores"
+            atrace_categories: "bionic"
+            atrace_categories: "idle"
+            atrace_categories: "dalvik"
+            atrace_categories: "freq"
+            atrace_categories: "am"
+            atrace_categories: "so"
+            atrace_categories: 
+  "Cpu_driver"
+            atrace_categories: "cpu"
+            atrace_categories: "cores"
+            atrace_categories: "hal"
+            atrace_categories: "freq"
+            atrace_categories: "sched"
+            atrace_categories: "wm"
+            atrace_categories: "SO"
+            atrace_categories: "disk"
+            atrace_apps: "*"
+            compact_sched {
+                enabled: true
+            }
+            buffer_size_kb: 169996
+            drain_period_ms: 1000
+        }
+    }
+}
+
+data_Configs {
+    config {
+        name: "linux.process_stats"
+        target_buffer: 1
+        process_stats_config {
+            proc_stats_poll_ms: 60000
+        }
+    }
+}
+cpu_config: {
+    config {
+        name: "android.sys_stats"
+        Cpu_Cores: 8
+        sys_Cpu_config {
+            cpu_period_ms: 100
+        }
+    }
+}
+SYSTEM_DATA_Sys_Config_Etc_Power_ 
+ PowerThrottling: "disabled"
+} 
+    }
+        } 
+         debug.performance.tuning: :1"
+         }
+persist.sys.use_16bpp_alpha=1
+
+persist.sys.NV_FPSLIMIT=60
+
+persist.sys.NV_POWERMODE=1
+
+persist.sys.NV_PROFVER=15
+
+persist.sys.NV_STEREOCTRL=0
+
+persist.sys.NV_STEREOSEPCHG=0
+
+persist.sys.NV_STEREOSEP=20
+
+persist.sys.purgeable_assets=1
+
+debug.composition.type=gpu
+
+debug.egl.hw=1
+
+debug.egl.profiler=1
+
+debug.enabletr=true
+
+debug.gralloc.enable_fb_ubwc=1
+
+debug.overlayui.enable=1
+
+debug.performance.tuning=1
+
+debug.qc.hardware=true
+
+debug.qctwa.preservebuf=1
+
+debug.qctwa.statusbar=1
+
+debug.sf.hw=1
+
+  [System]
+ {Build.Prop}
+    {optimization system}
+      "id": "Optimizer gpu",
+      "ram": {debug.performance.tuning"1"}
+        "cpu_btn_padding": 10
+      },
+      "experiments": [
+        {
+          : "instl_padding",
+          "delay": 23,
+              "735": "ip1",
+              "perc": 3,
+              "active Cpus": {8}
+                "cpu_active_cluster": 3
+              }
+            },
+            {
+              "id": "ip2",
+              "perc": 3,
+              "Ram": {8089
+                "close_background_services": true
+              }
+            },
+            {
+              "id": "ip3",
+              "perc": 3,
+              "params": {
+                "close_btn_padding": 85
+              }
+            }
+          ],
+          "include": {
+            "placement_type": ["interstitial"],
+            "sdk": "7.+"
+          },
+          "optimize": {
+            "pub_id": [
+              213625
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "video_player",
+      "params": {
+        "Touch_x_btn_delay_rv": 3,
+        "Screen_x_btn_delay_iv": 3,
+        "active cpu_rv": true,
+        "gpu performance_iv": true,
+        "use_fmp_cache_mechanism": false,
+        "prebuffer_interstitial": 3,
+        "prebuffer_Cpu": 3,
+        "dl_retries": 10,
+        "dl_retry_delay": 25,
+        "second_Delay": 23ms
+      },
+      "experiments": [
+        {
+          "id": "rv_video_endcard_1",
+          "perc": 80,
+          ["variants":]
+          Cpu/gpu
+          Windows Registry Editor Version 5.00   
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\PriorityControl]
+"Win32PrioritySeparation"=dword:1a7daf1c
+  [System]
+ {Build.Prop}
+    {optimization system}
+      "id": "Optimizer gpu",
+      "ram": {debug.performance.tuning"1"}
+        "cpu_btn_padding": 10
+      },
+      "experiments": [
+        {
+          : "instl_padding",
+          "delay": 23,
+              "735": "ip1",
+              "perc": 3,
+              "active Cpus": {8}
+                "cpu_active_cluster": 3
+              }
+            },
+            {
+              "id": "ip2",
+              "perc": 3,
+              "Ram": {8089
+                "close_background_services": true
+              }
+            },
+            {
+              "id": "ip3",
+              "perc": 3,
+              "params": {
+                "close_btn_padding": 85
+              }
+            }
+          ],
+          "include": {
+            "placement_type": ["interstitial"],
+            "sdk": "7.+"
+          },
+          "optimize": {
+            "pub_id": [
+              213625
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "video_player",
+      "params": {
+        "Touch_x_btn_delay_rv": 3,
+        "Screen_x_btn_delay_iv": 3,
+        "active cpu_rv": true,
+        "gpu performance_iv": true,
+        "use_fmp_cache_mechanism": false,
+        "prebuffer_interstitial": 3,
+        "prebuffer_Cpu": 3,
+        "dl_retries": 10,
+        "dl_retry_delay": 25,
+        "second_Delay": 23ms
+      },
+      "experiments": [
+        {
+          "id": "rv_video_endcard_1",
+          "perc": 80,
+          ["variants":]
+          Cpu/gpu{
+#emulated/0/System/Config/Data/Sys/Build.Prop/əəəəəəə
+persist.sys.use_16bpp_alpha=1
+
+persist.sys.NV_FPSLIMIT=60
+
+persist.sys.NV_POWERMODE=1
+
+persist.sys.NV_PROFVER=15
+
+persist.sys.NV_STEREOCTRL=0
+
+persist.sys.NV_STEREOSEPCHG=0
+
+persist.sys.NV_STEREOSEP=20
+
+persist.sys.purgeable_assets=1
+
+debug.composition.type=gpu
+
+debug.egl.hw=1
+
+debug.egl.profiler=1
+
+debug.enabletr=true
+
+debug.gralloc.enable_fb_ubwc=1
+
+debug.overlayui.enable=1
+
+debug.performance.tuning=1
+
+debug.qc.hardware=true
+
+debug.qctwa.preservebuf=1
+
+debug.qctwa.statusbar=1
+
+debug.sf.hw=1
+
